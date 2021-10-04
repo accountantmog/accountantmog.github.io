@@ -729,7 +729,7 @@ img{
   border: none;
 }
 
-.cost__legal:focus,.cost__individual:focus{
+.cost__choice-item--active{
   color: #22B66D;
   transition: color 0s ;
   background: none;
@@ -802,6 +802,7 @@ img{
 }
 
 .cost__subtable{
+  padding: 5px;
   max-width: 460px;
   background: #F4FFF9;
   border-left: 3px solid #22B66D;

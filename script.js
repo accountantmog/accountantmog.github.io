@@ -33,10 +33,14 @@ btnLegal.addEventListener('click', switchLegal)
 btnIndiv.addEventListener('click', switchIndiv)
 
 function switchIndiv() {
+    btnIndiv.classList.add('cost__choice-item--active')
+    btnLegal.classList.remove('cost__choice-item--active')
     document.querySelector('.cost__table2-div').style = `display:inline; position:relative;`
     document.querySelector('.cost__table-div').style.display = 'none'
 }
 function switchLegal() {
+    btnLegal.classList.add('cost__choice-item--active')
+    btnIndiv.classList.remove('cost__choice-item--active')
     document.querySelector('.cost__table-div').style = `display:inline; position:relative;`
     document.querySelector('.cost__table2-div').style.display = 'none'
 }
@@ -53,7 +57,7 @@ function switchLegal() {
         menu.classList.remove('header__nav-active')
     })
     if (window.innerWidth < 1001) {
-        for (let i = 0; i <= menuLinks.length; i++) {
+        for (let i = 0; i < menuLinks.length; i++) {
             menuLinks[i].addEventListener('click', () => {
                 menu.classList.remove('header__nav-active')
             })
