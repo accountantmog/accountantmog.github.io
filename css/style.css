@@ -504,7 +504,6 @@ img{
   
   background: #F4FFF9;
   background-image: url(../img/intro.jpg);
-  background-size: 50%;
   background-position: right;
   background-repeat: no-repeat;
   max-width: 1280px;
@@ -529,8 +528,7 @@ img{
   color:#0F213E;
   padding-top: 124px;
   padding-right: 73px;
-  
-  
+  margin-right: 20px;
 }
 .intro-text{
   font-weight: normal;
@@ -853,7 +851,7 @@ img{
   
 }
 .explanation__one-list,.explanation__two-list{
- padding-left: 2rem;
+  padding-left: 2rem;
 }
 
 .explanation__two-list{
@@ -883,9 +881,7 @@ img{
   margin: 0 auto;
 }
 .contacts__wrapper{
-margin-top: 65px;
-
-
+  margin-top: 65px;
 }
 
 .contacts__left-title{
@@ -946,15 +942,12 @@ display: flex;
 /*Media start*/
 @media screen and (max-width:1050px){
   .intro{
-  
     background: #F4FFF9;
     background-image: url(../img/intro.jpg);
-    background-size: 50%;
     background-position: right;
     background-repeat: no-repeat;
     max-width: 1280px;
     margin: 0 auto;
-    
   }
 
   .intro__wrapper{
@@ -968,17 +961,11 @@ display: flex;
     max-width: 1280px;
   }
   .intro-title{
-    
-    
-    padding-top: 0;
+    padding-top: 10px;
     padding-right: 0;
-    
-    
   }
   .intro-text{
-    
     padding: 18px 94px 20px 0;;
-    
   }
   .outsourcing-left{
     padding-right: 60px;
@@ -988,11 +975,9 @@ display: flex;
     margin-top: 65px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    
   }
 
   .phone__number{
-    
     padding-top: 10px;
   }
 
@@ -1122,7 +1107,6 @@ display: flex;
   
     background: #F4FFF9;
     background-image: url(../img/intro.jpg);
-    background-size: 50%;
     background-position: right;
     background-repeat: no-repeat;
     max-width: 1280px;
@@ -1231,7 +1215,7 @@ display: flex;
     line-height: 58px;
     color:#F4FFF9;
     text-align: left;
-    
+    margin-right: 0;
   }
   .intro-text{
     font-size: 16px;
